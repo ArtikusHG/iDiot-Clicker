@@ -15,6 +15,16 @@
 		587D74CE1F6AC1A50020CA20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587D74CC1F6AC1A50020CA20 /* LaunchScreen.storyboard */; };
 		587D74D91F6AC1A50020CA20 /* iDiot_clickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 587D74D81F6AC1A50020CA20 /* iDiot_clickerTests.m */; };
 		587D74E41F6AC1A50020CA20 /* iDiot_clickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 587D74E31F6AC1A50020CA20 /* iDiot_clickerUITests.m */; };
+		587D74FC1F6AC6700020CA20 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 587D74F31F6AC6700020CA20 /* 0.jpg */; };
+		587D74FD1F6AC6700020CA20 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 587D74F41F6AC6700020CA20 /* 1.jpg */; };
+		587D74FE1F6AC6700020CA20 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 587D74F51F6AC6700020CA20 /* 2.jpg */; };
+		587D74FF1F6AC6700020CA20 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 587D74F61F6AC6700020CA20 /* 3.jpg */; };
+		587D75001F6AC6700020CA20 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 587D74F71F6AC6700020CA20 /* 4.jpg */; };
+		587D75011F6AC6700020CA20 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 587D74F81F6AC6700020CA20 /* 5.jpg */; };
+		587D75021F6AC6700020CA20 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 587D74F91F6AC6700020CA20 /* 6.jpg */; };
+		587D75031F6AC6700020CA20 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 587D74FA1F6AC6700020CA20 /* 7.jpg */; };
+		587D75041F6AC6700020CA20 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 587D74FB1F6AC6700020CA20 /* 8.jpg */; };
+		587D750C1F6AC8FE0020CA20 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 587D750B1F6AC8FE0020CA20 /* bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,16 @@
 		587D74DF1F6AC1A50020CA20 /* iDiot clickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iDiot clickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		587D74E31F6AC1A50020CA20 /* iDiot_clickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDiot_clickerUITests.m; sourceTree = "<group>"; };
 		587D74E51F6AC1A50020CA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587D74F31F6AC6700020CA20 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		587D74F41F6AC6700020CA20 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		587D74F51F6AC6700020CA20 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		587D74F61F6AC6700020CA20 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		587D74F71F6AC6700020CA20 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		587D74F81F6AC6700020CA20 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		587D74F91F6AC6700020CA20 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		587D74FA1F6AC6700020CA20 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		587D74FB1F6AC6700020CA20 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		587D750B1F6AC8FE0020CA20 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +126,16 @@
 				587D74C41F6AC1A50020CA20 /* ViewController.h */,
 				587D74C51F6AC1A50020CA20 /* ViewController.m */,
 				587D74C71F6AC1A50020CA20 /* Main.storyboard */,
+				587D74F31F6AC6700020CA20 /* 0.jpg */,
+				587D74F41F6AC6700020CA20 /* 1.jpg */,
+				587D74F51F6AC6700020CA20 /* 2.jpg */,
+				587D74F61F6AC6700020CA20 /* 3.jpg */,
+				587D74F71F6AC6700020CA20 /* 4.jpg */,
+				587D74F81F6AC6700020CA20 /* 5.jpg */,
+				587D74F91F6AC6700020CA20 /* 6.jpg */,
+				587D74FA1F6AC6700020CA20 /* 7.jpg */,
+				587D74FB1F6AC6700020CA20 /* 8.jpg */,
+				587D750B1F6AC8FE0020CA20 /* bg.jpg */,
 				587D74CA1F6AC1A50020CA20 /* Assets.xcassets */,
 				587D74CC1F6AC1A50020CA20 /* LaunchScreen.storyboard */,
 				587D74CF1F6AC1A50020CA20 /* Info.plist */,
@@ -249,9 +279,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587D750C1F6AC8FE0020CA20 /* bg.jpg in Resources */,
+				587D75021F6AC6700020CA20 /* 6.jpg in Resources */,
 				587D74CE1F6AC1A50020CA20 /* LaunchScreen.storyboard in Resources */,
+				587D75011F6AC6700020CA20 /* 5.jpg in Resources */,
+				587D75031F6AC6700020CA20 /* 7.jpg in Resources */,
+				587D74FC1F6AC6700020CA20 /* 0.jpg in Resources */,
+				587D75041F6AC6700020CA20 /* 8.jpg in Resources */,
+				587D74FE1F6AC6700020CA20 /* 2.jpg in Resources */,
 				587D74CB1F6AC1A50020CA20 /* Assets.xcassets in Resources */,
+				587D74FD1F6AC6700020CA20 /* 1.jpg in Resources */,
+				587D75001F6AC6700020CA20 /* 4.jpg in Resources */,
 				587D74C91F6AC1A50020CA20 /* Main.storyboard in Resources */,
+				587D74FF1F6AC6700020CA20 /* 3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,8 +471,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7QEHQT8269;
 				INFOPLIST_FILE = "iDiot clicker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artikus.iDiot-clicker";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artikus.idiotclicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -443,8 +484,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7QEHQT8269;
 				INFOPLIST_FILE = "iDiot clicker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artikus.iDiot-clicker";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artikus.idiotclicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
