@@ -1,0 +1,74 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+<title>iDiot clicker</title>
+<script>
+function updateClicks() {
+ var i = document.getElementById('clicks').innerHTML;
+ i = ++i;
+var r = Math.floor(Math.random() * 10);
+document.getElementById('clicks').innerHTML = i;
+if(r == 9) {
+ document.getElementById('clicks').innerHTML = i - 5;
+}
+if(r == 0) {
+document.getElementById('clicks').innerHTML = i + 5;
+}
+ if(i >= 10) {
+  document.getElementById("rank").src = "1.jpg";
+}
+ if(i >= 50) {
+  document.getElementById("rank").src = "2.jpg";
+}
+ if(i >= 100) {
+  document.getElementById("rank").src = "3.jpg";
+}
+ if(i >= 500) {
+  document.getElementById("rank").src = "4.jpg";
+}
+ if(i >= 1000) {
+  document.getElementById("rank").src = "5.jpg";
+}
+ if(i >= 2500) {
+  document.getElementById("rank").src = "6.jpg";
+}
+ if(i >= 5000) {
+  document.getElementById("rank").src = "7.jpg";
+}
+ if(i >= 10000) {
+  document.getElementById("rank").src = "8.jpg";
+}
+}
+</script>
+</head>
+<body background="bg.jpg">
+<center>
+<button onclick="updateClicks()">Click here, iDiot!</button>
+<p id="clicks">0</p>
+<p>Your rank:</p>
+<img height="180" id="rank" src="0.jpg">
+</center>
+</body>
+<style>
+body {
+ font-family: Arial;
+ color: white;
+ font-size: 35pt;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+img {
+ border-radius: 20px;
+}
+button {
+ height: 170px;
+ width: 170px;
+ color: white;
+ font-size: 25pt;
+ border-radius: 1000px;
+ border: 2px solid white;
+ background: transparent;
+ outline: none;
+}
+</style>
+</html>
