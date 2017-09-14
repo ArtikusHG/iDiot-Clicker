@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		587D74C01F6AC1A50020CA20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 587D74BF1F6AC1A50020CA20 /* main.m */; };
+		587D74C31F6AC1A50020CA20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 587D74C21F6AC1A50020CA20 /* AppDelegate.m */; };
+		587D74C61F6AC1A50020CA20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587D74C51F6AC1A50020CA20 /* ViewController.m */; };
+		587D74C91F6AC1A50020CA20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587D74C71F6AC1A50020CA20 /* Main.storyboard */; };
+		587D74CB1F6AC1A50020CA20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587D74CA1F6AC1A50020CA20 /* Assets.xcassets */; };
+		587D74CE1F6AC1A50020CA20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587D74CC1F6AC1A50020CA20 /* LaunchScreen.storyboard */; };
+		587D74D91F6AC1A50020CA20 /* iDiot_clickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 587D74D81F6AC1A50020CA20 /* iDiot_clickerTests.m */; };
+		587D74E41F6AC1A50020CA20 /* iDiot_clickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 587D74E31F6AC1A50020CA20 /* iDiot_clickerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		587D74D51F6AC1A50020CA20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 587D74B31F6AC1A50020CA20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 587D74BA1F6AC1A50020CA20;
+			remoteInfo = "iDiot clicker";
+		};
+		587D74E01F6AC1A50020CA20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 587D74B31F6AC1A50020CA20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 587D74BA1F6AC1A50020CA20;
+			remoteInfo = "iDiot clicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		587D74BB1F6AC1A50020CA20 /* iDiot clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iDiot clicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		587D74BF1F6AC1A50020CA20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		587D74C11F6AC1A50020CA20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		587D74C21F6AC1A50020CA20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		587D74C41F6AC1A50020CA20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		587D74C51F6AC1A50020CA20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		587D74C81F6AC1A50020CA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		587D74CA1F6AC1A50020CA20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		587D74CD1F6AC1A50020CA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		587D74CF1F6AC1A50020CA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587D74D41F6AC1A50020CA20 /* iDiot clickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iDiot clickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		587D74D81F6AC1A50020CA20 /* iDiot_clickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDiot_clickerTests.m; sourceTree = "<group>"; };
+		587D74DA1F6AC1A50020CA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587D74DF1F6AC1A50020CA20 /* iDiot clickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iDiot clickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		587D74E31F6AC1A50020CA20 /* iDiot_clickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDiot_clickerUITests.m; sourceTree = "<group>"; };
+		587D74E51F6AC1A50020CA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		587D74B81F6AC1A50020CA20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587D74D11F6AC1A50020CA20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587D74DC1F6AC1A50020CA20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		587D74B21F6AC1A50020CA20 = {
+			isa = PBXGroup;
+			children = (
+				587D74BD1F6AC1A50020CA20 /* iDiot clicker */,
+				587D74D71F6AC1A50020CA20 /* iDiot clickerTests */,
+				587D74E21F6AC1A50020CA20 /* iDiot clickerUITests */,
+				587D74BC1F6AC1A50020CA20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		587D74BC1F6AC1A50020CA20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				587D74BB1F6AC1A50020CA20 /* iDiot clicker.app */,
+				587D74D41F6AC1A50020CA20 /* iDiot clickerTests.xctest */,
+				587D74DF1F6AC1A50020CA20 /* iDiot clickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		587D74BD1F6AC1A50020CA20 /* iDiot clicker */ = {
+			isa = PBXGroup;
+			children = (
+				587D74C11F6AC1A50020CA20 /* AppDelegate.h */,
+				587D74C21F6AC1A50020CA20 /* AppDelegate.m */,
+				587D74C41F6AC1A50020CA20 /* ViewController.h */,
+				587D74C51F6AC1A50020CA20 /* ViewController.m */,
+				587D74C71F6AC1A50020CA20 /* Main.storyboard */,
+				587D74CA1F6AC1A50020CA20 /* Assets.xcassets */,
+				587D74CC1F6AC1A50020CA20 /* LaunchScreen.storyboard */,
+				587D74CF1F6AC1A50020CA20 /* Info.plist */,
+				587D74BE1F6AC1A50020CA20 /* Supporting Files */,
+			);
+			path = "iDiot clicker";
+			sourceTree = "<group>";
+		};
+		587D74BE1F6AC1A50020CA20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				587D74BF1F6AC1A50020CA20 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		587D74D71F6AC1A50020CA20 /* iDiot clickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				587D74D81F6AC1A50020CA20 /* iDiot_clickerTests.m */,
+				587D74DA1F6AC1A50020CA20 /* Info.plist */,
+			);
+			path = "iDiot clickerTests";
+			sourceTree = "<group>";
+		};
+		587D74E21F6AC1A50020CA20 /* iDiot clickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				587D74E31F6AC1A50020CA20 /* iDiot_clickerUITests.m */,
+				587D74E51F6AC1A50020CA20 /* Info.plist */,
+			);
+			path = "iDiot clickerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		587D74BA1F6AC1A50020CA20 /* iDiot clicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587D74E81F6AC1A50020CA20 /* Build configuration list for PBXNativeTarget "iDiot clicker" */;
+			buildPhases = (
+				587D74B71F6AC1A50020CA20 /* Sources */,
+				587D74B81F6AC1A50020CA20 /* Frameworks */,
+				587D74B91F6AC1A50020CA20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iDiot clicker";
+			productName = "iDiot clicker";
+			productReference = 587D74BB1F6AC1A50020CA20 /* iDiot clicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		587D74D31F6AC1A50020CA20 /* iDiot clickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587D74EB1F6AC1A50020CA20 /* Build configuration list for PBXNativeTarget "iDiot clickerTests" */;
+			buildPhases = (
+				587D74D01F6AC1A50020CA20 /* Sources */,
+				587D74D11F6AC1A50020CA20 /* Frameworks */,
+				587D74D21F6AC1A50020CA20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				587D74D61F6AC1A50020CA20 /* PBXTargetDependency */,
+			);
+			name = "iDiot clickerTests";
+			productName = "iDiot clickerTests";
+			productReference = 587D74D41F6AC1A50020CA20 /* iDiot clickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		587D74DE1F6AC1A50020CA20 /* iDiot clickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587D74EE1F6AC1A50020CA20 /* Build configuration list for PBXNativeTarget "iDiot clickerUITests" */;
+			buildPhases = (
+				587D74DB1F6AC1A50020CA20 /* Sources */,
+				587D74DC1F6AC1A50020CA20 /* Frameworks */,
+				587D74DD1F6AC1A50020CA20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				587D74E11F6AC1A50020CA20 /* PBXTargetDependency */,
+			);
+			name = "iDiot clickerUITests";
+			productName = "iDiot clickerUITests";
+			productReference = 587D74DF1F6AC1A50020CA20 /* iDiot clickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		587D74B31F6AC1A50020CA20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ArtikusHG;
+				TargetAttributes = {
+					587D74BA1F6AC1A50020CA20 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7QEHQT8269;
+						ProvisioningStyle = Automatic;
+					};
+					587D74D31F6AC1A50020CA20 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7QEHQT8269;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 587D74BA1F6AC1A50020CA20;
+					};
+					587D74DE1F6AC1A50020CA20 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7QEHQT8269;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 587D74BA1F6AC1A50020CA20;
+					};
+				};
+			};
+			buildConfigurationList = 587D74B61F6AC1A50020CA20 /* Build configuration list for PBXProject "iDiot clicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 587D74B21F6AC1A50020CA20;
+			productRefGroup = 587D74BC1F6AC1A50020CA20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				587D74BA1F6AC1A50020CA20 /* iDiot clicker */,
+				587D74D31F6AC1A50020CA20 /* iDiot clickerTests */,
+				587D74DE1F6AC1A50020CA20 /* iDiot clickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		587D74B91F6AC1A50020CA20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587D74CE1F6AC1A50020CA20 /* LaunchScreen.storyboard in Resources */,
+				587D74CB1F6AC1A50020CA20 /* Assets.xcassets in Resources */,
+				587D74C91F6AC1A50020CA20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587D74D21F6AC1A50020CA20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587D74DD1F6AC1A50020CA20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		587D74B71F6AC1A50020CA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587D74C61F6AC1A50020CA20 /* ViewController.m in Sources */,
+				587D74C31F6AC1A50020CA20 /* AppDelegate.m in Sources */,
+				587D74C01F6AC1A50020CA20 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587D74D01F6AC1A50020CA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587D74D91F6AC1A50020CA20 /* iDiot_clickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587D74DB1F6AC1A50020CA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587D74E41F6AC1A50020CA20 /* iDiot_clickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		587D74D61F6AC1A50020CA20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 587D74BA1F6AC1A50020CA20 /* iDiot clicker */;
+			targetProxy = 587D74D51F6AC1A50020CA20 /* PBXContainerItemProxy */;
+		};
+		587D74E11F6AC1A50020CA20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 587D74BA1F6AC1A50020CA20 /* iDiot clicker */;
+			targetProxy = 587D74E01F6AC1A50020CA20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		587D74C71F6AC1A50020CA20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587D74C81F6AC1A50020CA20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		587D74CC1F6AC1A50020CA20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587D74CD1F6AC1A50020CA20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		587D74E61F6AC1A50020CA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		587D74E71F6AC1A50020CA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		587D74E91F6AC1A50020CA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QEHQT8269;
+				INFOPLIST_FILE = "iDiot clicker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artikus.iDiot-clicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		587D74EA1F6AC1A50020CA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QEHQT8269;
+				INFOPLIST_FILE = "iDiot clicker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artikus.iDiot-clicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		587D74EC1F6AC1A50020CA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7QEHQT8269;
+				INFOPLIST_FILE = "iDiot clickerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artikus.iDiot-clickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iDiot clicker.app/iDiot clicker";
+			};
+			name = Debug;
+		};
+		587D74ED1F6AC1A50020CA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7QEHQT8269;
+				INFOPLIST_FILE = "iDiot clickerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artikus.iDiot-clickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iDiot clicker.app/iDiot clicker";
+			};
+			name = Release;
+		};
+		587D74EF1F6AC1A50020CA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7QEHQT8269;
+				INFOPLIST_FILE = "iDiot clickerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artikus.iDiot-clickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iDiot clicker";
+			};
+			name = Debug;
+		};
+		587D74F01F6AC1A50020CA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7QEHQT8269;
+				INFOPLIST_FILE = "iDiot clickerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artikus.iDiot-clickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iDiot clicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		587D74B61F6AC1A50020CA20 /* Build configuration list for PBXProject "iDiot clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587D74E61F6AC1A50020CA20 /* Debug */,
+				587D74E71F6AC1A50020CA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		587D74E81F6AC1A50020CA20 /* Build configuration list for PBXNativeTarget "iDiot clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587D74E91F6AC1A50020CA20 /* Debug */,
+				587D74EA1F6AC1A50020CA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		587D74EB1F6AC1A50020CA20 /* Build configuration list for PBXNativeTarget "iDiot clickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587D74EC1F6AC1A50020CA20 /* Debug */,
+				587D74ED1F6AC1A50020CA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		587D74EE1F6AC1A50020CA20 /* Build configuration list for PBXNativeTarget "iDiot clickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587D74EF1F6AC1A50020CA20 /* Debug */,
+				587D74F01F6AC1A50020CA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 587D74B31F6AC1A50020CA20 /* Project object */;
+}
